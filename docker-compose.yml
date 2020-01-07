@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  inventorymanagement:
+    image: ${DOCKER_REGISTRY-}inventorymanagement
+    build:
+      context: .
+      dockerfile: InventoryManagement\Dockerfile
