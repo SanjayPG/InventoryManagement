@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}inventorymanagement
     build:
       context: .
-      dockerfile: InventoryManagement\Dockerfile
+      dockerfile: InventoryManagement/Dockerfile
